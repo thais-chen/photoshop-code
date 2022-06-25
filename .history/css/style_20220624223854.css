@@ -41,15 +41,14 @@ footer{
 	.hero{
 		background-image: url(/images/hero-bg.jpg);
 		width: 100%;
-		min-height: 500px;
+        height: 825px;
 		
 	}
-	@media (min-width: 992px) { 
+	@media (max-width: 767.98px) { .
 		.hero{
-			height: 825px;
-		}
-	 }
-
+			min-height: ;
+		}	
+	}
 	.hero h1{
 		padding-left: 26%;
 		padding-top: 10%;

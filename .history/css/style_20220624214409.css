@@ -41,19 +41,13 @@ footer{
 	.hero{
 		background-image: url(/images/hero-bg.jpg);
 		width: 100%;
-		min-height: 500px;
+        height: 825px;
 		
 	}
-	@media (min-width: 992px) { 
-		.hero{
-			height: 825px;
-		}
-	 }
-
 	.hero h1{
-		padding-left: 26%;
-		padding-top: 10%;
-		 
+		margin-left: 26%;
+		margin-top: 10%;
+		font-size: 6rem;
 	}
 	.hero-nav a{
 		color: white;
@@ -72,7 +66,6 @@ footer{
 	}
 	.history-bg{
 		background-image: url(/images/history-bg.jpg);
-		height: 710px;
 		 
 	}
 	.carousel-content{
@@ -93,15 +86,13 @@ footer{
 	}
 	.team-text{
 		padding: 1rem;
-		background-color: white;
+		background-color: wheat;
 		 
 	}
 
  #team-bg{
 	height:546px ;
 	background-image: url(/images/team-bg_16.jpg);
-	padding: 1px;
-
 
  }
  .carousel-thumb .col{
@@ -110,21 +101,24 @@ footer{
 	padding-bottom: 1.5rem;
 	padding-left: 1rem;
  }
-.schedule{
-	margin-left: 20%;  
-	margin-top: 10%;
- 
-
+ .schedule{
+align-items: flex-start;
+background-color: white;
+width: fit-content;
+text-align: center;
+margin-top: 2px;
 
 }
+.sched-pos{
 
+}
 ul{
 	list-style: none;
 }
 .footer-content{
 	
 		background-color:#336666;
-	 
+		height: 75px;
 		 
 	
 }

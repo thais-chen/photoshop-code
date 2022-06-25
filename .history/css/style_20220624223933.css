@@ -44,12 +44,11 @@ footer{
 		min-height: 500px;
 		
 	}
-	@media (min-width: 992px) { 
+	@media (max-width: 767.98px) { 
 		.hero{
-			height: 825px;
-		}
-	 }
-
+			
+		}	
+	}
 	.hero h1{
 		padding-left: 26%;
 		padding-top: 10%;
