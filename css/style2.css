@@ -1,0 +1,125 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body{
+	background-color: black;
+}
+footer{
+	width: 1600px;
+	margin: auto;
+}
+    #wrapper{
+   
+        width: 1600px;
+		display: flex;
+ 
+		flex-direction: column;
+	 
+		position: relative;
+		margin: auto;
+    }
+	.hero{
+		background-image: url(/images/hero-bg.jpg);
+		width: 1600px;
+        height: 825px;
+		
+	}
+	.hero h1{
+		margin-left: 26%;
+		margin-top: 10%;
+		font-size: 6rem;
+	}
+	.hero-nav a{
+		color: white;
+	}
+	.nav{
+		margin-left: 20%;
+		padding-right: 25%;
+	}
+	.history-nav a{
+		color: blue;
+	}
+	.nav-2{
+		background-color: white;
+		height: 75px;
+		text-decoration: underline;
+	}
+	.history-bg{
+		background-image: url(/images/history-bg.jpg);
+		height:710px ;
+		width: 1600px;
+	}
+	.carousel-content{
+		background-image: url(/images/carousel_03.jpg);
+		height: 195px;
+		width: 1600px;
+	}
+	.nav-link{
+		text-decoration: underline;
+	}
+	.row{
+	 
+		align-items: center;
+		justify-content: center;
+		flex-basis: content;
+		margin: 0;
+ 
+	}
+	.team-text{
+		padding: 1rem;
+		background-color: wheat;
+		 
+	}
+
+ #team-bg{
+	height:546px ;
+	background-image: url(/images/team-bg_16.jpg);
+
+ }
+ .carousel-thumb .col{
+	flex: 0 0 0%;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1rem;
+ }
+ .schedule{
+
+align-items: flex-start;
+background-color: white;
+width: fit-content;
+text-align: center;
+
+}
+.sched-pos{
+	margin-top: 10%;
+	margin-left: 20%;
+}
+ul{
+	list-style: none;
+}
+.footer-content{
+	
+		background-color:#336666;
+		height: 75px;
+		 
+	
+}

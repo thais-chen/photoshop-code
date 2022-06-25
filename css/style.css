@@ -1,0 +1,77 @@
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+:root {
+    --bg-color: #336666;
+    --grey-blue: #9999cc;
+    --caption-blue: #336666;
+    --footer-text: #666699;
+}
+
+main{
+    width: 1600px;
+}
+ navbar */
+.nav{
+
+    padding-top: 1%;
+    position: sticky;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 20%;
+    font-family: 'Lato';
+    font-size: 4.23mm;
+    line-height: 7.06mm;
+   
+}
+.logo{
+    flex-grow: 1;
+    padding-left: 21.5%;
+}
+/*fix later underline */ 
+li a{
+    border-bottom: 1px;
+    border-style: solid;
+}
+
+a{
+
+  text-decoration: none;
+  color: inherit; 
+}
+ 
+/* hero */
+.hero{
+    height:100vh;
+}
+.hero-bg  {
+  height: 100%;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  
+}
+
+.heading-pos{
+    color: black;
+    font-family: 'Bebas Neue';
+    font-size: 10rem;
+    margin-left: 25.8%;
+    margin-top: 9%;
+}
+
+/* history */
+.history{
+    width: 100vw;
+}
+ 
